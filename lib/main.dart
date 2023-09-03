@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:flutter_cable_app/Admin/Bills/Bills.dart';
-// import 'package:flutter_cable_app/User/Splashscreen.dart';
-import 'Admin/AdminDashboard.dart';
+import 'package:flutter_cable_app/User/Splashscreen.dart';
+// import 'Admin/AdminDashboard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       debugShowCheckedModeBanner: false,
       // ignore: prefer_const_constructors
-      home: Admin_Dashboard(),
+      home: Splashscreen(),
     );
   }
 }
